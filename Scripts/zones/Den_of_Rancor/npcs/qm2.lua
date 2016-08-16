@@ -23,10 +23,10 @@ end;
 
 function onTrigger(player,npc)
     if (player:getVar("Weaponskill_Scythe") == 1) and (player:hasKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH)) then
-	   SpawnMob(17433016):updateClaim(player); --Mokumokuren
-	else   
+	SpawnMob(17433016):updateClaim(player); --Mokumokuren
+    else   
        player:messageSpecial(NOTHING_OUT_OF_ORDINARY);
-	end   
+    end   
 end;
 
 -----------------------------------
