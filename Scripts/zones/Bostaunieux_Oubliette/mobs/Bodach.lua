@@ -25,8 +25,8 @@ end;
 
 function onMobDeath(mob, player, isKiller)
     if (player:getVar("Weaponskill_H2H") == 1) and (player:hasKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH) == true) then
-	   player:addKeyItem(ANNALS_OF_TRUTH);
-	   player:delKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH);
-	   player:setVar("Weaponskill_H2H",2);
-	end   
+	player:addKeyItem(ANNALS_OF_TRUTH);
+	player:delKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH);
+	player:setVar("Weaponskill_H2H",2);
+    end   
 end;
