@@ -24,9 +24,9 @@ end;
 function onTrigger(player,npc)
     if (player:getVar("Weaponskill_Bow") == 1) and (player:hasKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH)) then
 	   SpawnMob(17240424):updateClaim(player); --Stolas
-	else   
-       player:messageSpecial(NOTHING_OUT_OF_ORDINARY);
-	end   
+    else   
+        player:messageSpecial(NOTHING_OUT_OF_ORDINARY);
+    end   
 end;
 
 -----------------------------------
