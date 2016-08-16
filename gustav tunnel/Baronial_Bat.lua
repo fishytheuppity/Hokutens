@@ -15,10 +15,6 @@ require("scripts/zones/Gustav_Tunnel/TextIDs");
 function onMobSpawn(mob)
 end;
 
-
-
-
-
 -----------------------------------
 -- onMobDeath
 -----------------------------------
