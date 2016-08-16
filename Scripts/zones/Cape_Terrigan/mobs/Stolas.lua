@@ -13,6 +13,7 @@ require("scripts/zones/Cape_Terrigan/TextIDs");
 -----------------------------------
 
 function onMobSpawn(mob)
+	
 end;
 
 
