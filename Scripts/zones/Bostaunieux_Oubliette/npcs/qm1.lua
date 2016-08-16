@@ -24,9 +24,9 @@ end;
 function onTrigger(player,npc)
     if (player:getVar("Weaponskill_H2H") == 1) and (player:hasKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH)) then
 	   SpawnMob(17645809):updateClaim(player); --Bodach
-	else   
+    else   
        player:messageSpecial(NOTHING_OUT_OF_ORDINARY);
-	end   
+    end   
 end;
 
 -----------------------------------
