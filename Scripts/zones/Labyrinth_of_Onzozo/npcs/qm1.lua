@@ -23,10 +23,10 @@ end;
 
 function onTrigger(player,npc)
     if (player:getVar("Weaponskill_Katana") == 1) and (player:hasKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH)) then
-	   SpawnMob(17649861):updateClaim(player); --Megapod
-	else   
-       player:messageSpecial(NOTHING_OUT_OF_ORDINARY);
-	end   
+	SpawnMob(17649861):updateClaim(player); --Megapod
+    else   
+        player:messageSpecial(NOTHING_OUT_OF_ORDINARY);
+    end   
 end;
 
 -----------------------------------
