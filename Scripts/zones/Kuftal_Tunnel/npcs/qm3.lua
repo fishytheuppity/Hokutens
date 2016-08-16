@@ -23,10 +23,10 @@ end;
 
 function onTrigger(player,npc)
     if (player:getVar("Weaponskill_GKatana") == 1) and (player:hasKeyItem(MAP_TO_THE_ANNALS_OF_TRUTH)) then
-	   SpawnMob(17490235):updateClaim(player); --Kettenkaefer
-	else   
+	SpawnMob(17490235):updateClaim(player); --Kettenkaefer
+    else   
        player:messageSpecial(NOTHING_OUT_OF_ORDINARY);
-	end   
+    end   
 end;
 
 -----------------------------------
